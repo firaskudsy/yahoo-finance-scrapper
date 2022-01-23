@@ -28,14 +28,7 @@ async function start() {
 
   console.log('DEBUG: ~ file: index.js ~ line 15 ~ start ~ yield ', price);
 
-  // const accept = ("#consent-page > div > div > div > form > div.wizard-body > div.actions.couple > button");
-  // await page.click(accept);
-  // for(const k = 1; k < 2000; k++){
-  //   const element = await page.waitForXPath("//*[@id="quote-summary"]/div[2]/table/tbody/tr[5]/td[2]");
-  //   const price = await page.evaluate(element => element.textContent, element);
-  //   console.log(price);
-  //   await page.waitForTimeout(1000);
-  // }
+
   browser.close();
 }
 start();
